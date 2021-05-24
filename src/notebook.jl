@@ -27,6 +27,10 @@ md"""
 
 # ╔═╡ afb13dfd-6ddb-42bf-bfb9-4e5165b5d11b
 function process_raw_camera_data(raw_camera_data)
+	if ismissing(raw_camera_data) 
+		return
+	end
+		
 	# the raw image data is a long byte array, we need to transform it into something
 	# more "Julian" - something with more _structure_.
 	
