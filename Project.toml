@@ -1,4 +1,5 @@
 name = "PlutoWebcam"
+uuid = "1bfc06dc-803f-4693-bf3a-89ec7655fa03"
 authors = ["Artur Hallmann <arturh@arturh.de>"]
 version = "0.0.1"
 
